@@ -1,6 +1,6 @@
 package net.werdei.testing;
 
-public class Sorts
+public class Sorts 
 {
     public static int[] bucketSort(int[] unsorted)
     {

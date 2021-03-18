@@ -17,7 +17,6 @@ public class FunctionSeries
         if (depth < 1) throw new RuntimeException();
         if (Math.abs(x) > 1) return Double.NaN;
 
-
         double cum = 0;
         for (int n = 0; n < depth; n++)
         {
